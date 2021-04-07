@@ -1,0 +1,117 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.home__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+.home__header a{
+    margin-right:20px;
+    text-decoration: inherit;
+    color: rgba(0,0,0,0.87);
+    font-size: 15px;;
+}
+.home__header a:hover{
+    text-decoration: underline;
+}
+.home__headerRight{
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+.home__headerRight>.MuiSvgIcon-root{ 
+    margin-right: 20px;
+}
+
+.home__body{
+    /* flex: 1; */
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.home__body > img{
+    object-fit: contain;
+    height: 95px;
+    /* border: 1px solid red; */
+}
+
+.languages{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    font-size:12.8px;
+    margin-top: 16px;
+}
+.left-part{
+    margin-right: 10px;
+}
+.language{
+    padding: 0;
+}
+.right-part ul{
+    display: flex;
+}
+
+
+.right-part ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+.right-part ul li a{
+    text-decoration: none;
+}
+.right-part ul li a:hover{
+    text-decoration: underline;
+}
+
+/* footer design  */
+
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+    height: 100vh;
+    font-size: 15px;
+}
+.footer{
+    background-color: #f9f9f9;
+}
+.footer__top{
+    padding:13px 13px 13px 30px;
+    border-top: 1px solid lightgray;
+    color:gray;
+}
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray
+}
+.footer__bottom_left ul{
+    display: flex;
+    padding: 0;
+}
+.footer__bottom_left ul li,
+.footer__bottom_right ul li{
+    list-style: none;
+    padding:13px 9px 13px 30px;
+}
+.footer__bottom_left ul li a,
+.footer__bottom_right ul li a{
+    color: gray;
+    text-decoration: none;
+}
+.footer__bottom_right ul{
+    display: flex;
+}
+.footer__bottom_left ul li a:hover,
+.footer__bottom_right ul li a:hover{
+    text-decoration: underline;
+}
